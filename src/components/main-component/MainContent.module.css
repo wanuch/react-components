@@ -1,1 +1,6 @@
-.MainContent {}
+.MainContent {
+    margin: 0;
+    padding: 10px;
+    background-color: #282D35;
+    color: white;
+}

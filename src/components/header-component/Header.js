@@ -7,8 +7,9 @@ const Header = () => (
     <header>
       <nav className="nav">
         <img className="nav-logo" src={reactLogo} />
+        <h1 className="nav-title">React</h1>
         <ul className="nav-items">
-          <li>Pricing</li>
+          <li>Content</li>
           <li>About</li>
           <li>Contact</li>
         </ul>
@@ -16,9 +17,5 @@ const Header = () => (
     </header>
   </div>
 );
-
-Header.propTypes = {};
-
-Header.defaultProps = {};
 
 export default Header;

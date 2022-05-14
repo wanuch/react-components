@@ -1,12 +1,15 @@
-html, body {
-  margin: 0;
-  padding: 10px;
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #21222A;
+}
+
+.nav-title {
+  color: #61DAFB;
+  margin-right: auto;
+  font-size: 36px;
+  padding-left: 5px;
 }
 
 .nav-items {
@@ -14,10 +17,28 @@ html, body {
   display: flex;
 }
 
-.nav-items > li {
+.nav-items>li {
   padding: 10px;
 }
 
 .nav-logo {
   width: 50px;
+  padding-left: 10px;
+}
+
+main {
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-facts .facts-list {
+  line-height: 20px;
+}
+
+.main-facts .facts-list li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
