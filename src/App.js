@@ -3,7 +3,7 @@ import Header from './components/Header-component/Header';
 import MainContent from './components/Main-component/MainContent';
 import Footer from './components/Footer-component/Footer';
 
-function App() {
+const App = () => {
   return (
     <div>
       <Header />
